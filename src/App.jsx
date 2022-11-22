@@ -1,24 +1,25 @@
 import './App.css';
 
 function SectionTitle(props) {
-  return <h2 className='sectionTitle'>Our services</h2>;
+  console.log('props ===', props);
+  return <h2 className='sectionTitle'>{props.title}</h2>;
 }
 
-function Icon() {
-  return <i className='fa fa-address-book' aria-hidden='true'></i>;
+function Icon(props) {
+  return <i className={`fa ${props.iconName}`} aria-hidden='true'></i>;
 }
 
 function Grid() {
   return (
     <div className='grid'>
       <h2>
-        kortele <Icon />
+        kortele <Icon iconName='fa-address-book' />
       </h2>
       <h2>
-        kortele <Icon />
+        kortele <Icon iconName='fa-envelope-open' />
       </h2>
       <h2>
-        kortele <Icon />
+        kortele <Icon iconName='fa-meetup' />
       </h2>
     </div>
   );
@@ -27,8 +28,9 @@ function Grid() {
 function App() {
   return (
     <div className='App container'>
-      <SectionTitle title='Musu paslaugos' />
+      <SectionTitle title='Musu paslaugos' size='large' />
       <Grid />
+      {/* <SectionTitle title='About us' /> */}
     </div>
   );
 }
