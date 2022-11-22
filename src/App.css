@@ -13,6 +13,9 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+.grid.grid--four {
+  grid-template-columns: repeat(4, 1fr);
+}
 
 .card .card__icon,
 .card .card__link {
