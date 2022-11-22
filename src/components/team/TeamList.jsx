@@ -1,5 +1,7 @@
 import TeamMember from './TeamMember';
 
+// generuoti TeamMemberius is teamsArr
+
 function TeamList() {
   return (
     <div className='grid'>
