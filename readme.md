@@ -4,7 +4,7 @@
 
 ## our team section
 
-1. OurTeamSection component
+1. OurTeamSection component - empty
 2. TeamList component 
 3. TeamMember component
 4. create 4 members as per example
