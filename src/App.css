@@ -32,3 +32,11 @@
 .team__ocupation {
   color: gray;
 }
+
+.subtitle {
+  text-align: center;
+  letter-spacing: 2px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
