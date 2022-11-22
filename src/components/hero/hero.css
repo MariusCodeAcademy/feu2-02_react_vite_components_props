@@ -1,0 +1,8 @@
+.hero {
+  color: white;
+  background-color: #007bff;
+  padding: 1.5em 0;
+}
+.hero h3 {
+  font-weight: normal;
+}

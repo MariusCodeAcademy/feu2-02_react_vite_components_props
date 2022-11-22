@@ -3,7 +3,7 @@ import TeamList from './TeamList';
 
 function OurTeamSection() {
   return (
-    <div>
+    <div className='container'>
       <SectionTitle
         title='Our team'
         subtitle='Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.'

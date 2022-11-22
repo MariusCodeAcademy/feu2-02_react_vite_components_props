@@ -3,7 +3,7 @@ import ServicesGrid from './ServicesGrid';
 
 function OurServices() {
   return (
-    <div className='servicesSecion'>
+    <div className='servicesSecion container'>
       <SectionTitle title='Musu paslaugos' size='large' />
       <ServicesGrid />
     </div>
