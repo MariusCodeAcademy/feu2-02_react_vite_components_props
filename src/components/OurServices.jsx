@@ -1,9 +1,5 @@
 import Icon from './UI/Icon';
-
-function SectionTitle(props) {
-  // console.log('props ===', props);
-  return <h2 className='sectionTitle'>{props.title}</h2>;
-}
+import SectionTitle from './UI/SectionTitle';
 
 function Grid() {
   return (
