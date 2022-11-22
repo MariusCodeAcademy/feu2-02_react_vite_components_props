@@ -1,5 +1,5 @@
 import SectionTitle from './UI/SectionTitle';
-import ServicesGrid from './Grid';
+import ServicesGrid from './ServicesGrid';
 
 function OurServices() {
   return (
