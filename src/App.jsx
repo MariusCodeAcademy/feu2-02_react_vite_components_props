@@ -7,28 +7,28 @@ function SectionTitle(props) {
 
 function Icon(props) {
   // console.log('props ===', props);
-  return <i className={`fa ${props.iconName}`} aria-hidden='true'></i>;
+  return <i className={`fa ${props.iconName} fa-3x`} aria-hidden='true'></i>;
 }
 
 function Grid() {
   return (
     <div className='grid'>
-      <SeviceCard />
+      <SeviceCard title='Business Consulting' icon='fa-address-book' link='/about.html' />
       <SeviceCard />
       <SeviceCard />
     </div>
   );
 }
 
-function SeviceCard() {
+function SeviceCard(props) {
   return (
     <div className='card'>
-      <Icon className='card__icon' iconName='fa-address-book' />
-      <h3>title</h3>
+      <Icon className='card__icon' iconName={props.icon} />
+      <h3>{props.title}</h3>
       <p className='card__text'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos dolor atque exercitationem
       </p>
-      <a href='#' className='card__link'>
+      <a href={props.link} className='card__link'>
         Learn more
       </a>
     </div>
