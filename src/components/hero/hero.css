@@ -6,3 +6,7 @@
 .hero h3 {
   font-weight: normal;
 }
+
+.hero.red {
+  background-color: tomato;
+}
