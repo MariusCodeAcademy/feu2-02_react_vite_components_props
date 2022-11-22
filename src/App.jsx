@@ -38,12 +38,20 @@ function SeviceCard(props) {
   );
 }
 
-function App() {
+function OurServices() {
   return (
-    <div className='App container'>
+    <div className='servicesSecion'>
       <SectionTitle title='Musu paslaugos' size='large' />
       <Grid />
       {/* <SectionTitle title='About us' /> */}
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div className='App container'>
+      <OurServices />
     </div>
   );
 }
